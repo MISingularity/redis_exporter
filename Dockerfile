@@ -1,4 +1,4 @@
-OM r.fds.so:5000/golang1.5.3
+FROM r.fds.so:5000/golang1.5.3
 
 ENV GOPATH /go
 COPY . /go/src/redis_exporter
